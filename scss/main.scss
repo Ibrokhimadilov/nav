@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin-left: 100px;
+}
+%btn_set{
+    padding: 8px 8px;
+    background-color: #00BAFC;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        margin-right: 100px;
+
+        &_title{
+            display: flex;
+            list-style: none;
+            gap: 32px;
+        }
+
+        &_contact{
+        &:hover{
+            background-color: black;
+        }
+        }
+            }
+        }
+    }
+}
